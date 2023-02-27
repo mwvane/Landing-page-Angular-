@@ -1,12 +1,16 @@
-.container{
-    background-color: #EEE9E3;
+.header-container{
     height: 80px;
+    background-color: #F4EFEA;
+    width: 100% !important;
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
-.content{
-    width: 80%;
+.container{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.btn-header-rounded{
+    background-color: white;
+    color: black;
 }
