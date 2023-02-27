@@ -1,0 +1,19 @@
+<div [ngClass]="isSelected ? 'selected' : ''" class="main-container" (click)="onClick()">
+  <div class="item-body">
+    <div class="menu-item-icon my-2">
+      <i
+        class="{{ icon }}"
+        [ngStyle]="isSelected ? { color: 'black' } : { color: '#F9981B' }"
+      ></i>
+    </div>
+    <div class="my-2">
+      <h5 [ngStyle]="!isSelected ? { color: '#25508C' } : { color: 'white' }">
+        {{ caption }}
+      </h5>
+    </div>
+    <div class="divider my-2"></div>
+    <div>
+      <p [ngStyle]="isSelected ? { color: 'white' } : { color: '#132A4B' }">{{text}}</p>
+    </div>
+  </div>
+</div>
