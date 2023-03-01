@@ -1,31 +1,96 @@
-.img-slider{
-    height: 600px;
+.img-slider {
+  height: 600px;
 }
-.navbar{
-    position: relative;
-    padding: 0;
+.navbar {
+  position: relative;
+  padding: 0;
 }
-.menu{
-    position: absolute;
-    bottom:-10px;
-    left: 100px;
+.menu {
+  position: absolute;
+  bottom: -10px;
+  left: 100px;
 }
-.main-container{
-    background-color: #F5F5F5;
+.main-container {
+  background-color: #f5f5f5;
+  padding-bottom: 100px;
 }
-.custom-card{
-    height: 600px;
-    background-color: white;
-    margin-top: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.custom-card {
+  height: 600px;
+  margin-top: 120px;
 }
-.content{
-    width: 88%;
-    padding: 100px;
-    text-align: center  ;
+.content {
+  width: 99%;
+  background-color: white;
+  text-align: center;
+  border-radius: 0 8px 8px 0;
 }
-.img{
-width: 100%;
+.img {
+  width: 100%;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-bottom: -25px;
+}
+.caption {
+  color: #25508c;
+  font-weight: bold;
+}
+.avatar {
+  color: #25508c;
+  cursor: pointer;
+}
+.avatar:hover {
+  color: #f9981b;
+}
+.border {
+  border-radius: 10px;
+  border: 2px solid #f9981b !important;
+}
+.img-with-border {
+  position: relative;
+}
+.news {
+  margin-top: 250px;
+}
+.news-items {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 98%;
+  position: absolute;
+  top: -200px;
+}
+.transpharent{
+  height: 100%;
+  position: absolute;
+  width: 50%;
+  background-color: rgba(240,240,240, .8);
+  top: 0;
+  right: 0;
+  border-radius: 0 10px 10px 0;
+  backdrop-filter: blur(10px);
+}
+.footer{
+  margin-top: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  flex-wrap: nowrap;
+  width: 98%;
+}
+.my-card{
+  height: 154px;
+  width: 328px;
+  background-color: white;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left:30px;
+}
+.custom-caption{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  padding-bottom: 20px;
 }

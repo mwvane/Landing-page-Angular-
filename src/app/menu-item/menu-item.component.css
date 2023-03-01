@@ -4,11 +4,12 @@
 }
 .main-container{
     height: 280px;
-    width: 338px;
+    width: 328px;
     display: flex;
     flex-direction: column;
     padding: 30px;
     color: white;
+    cursor: pointer;
 }
 .menu-item-icon{
     height: 99px;

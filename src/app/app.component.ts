@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Data } from 'src/data/data';
+import { Laborant } from './model/laborantModel';
 
 @Component({
   selector: 'app-root',

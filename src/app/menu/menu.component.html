@@ -1,1 +1,5 @@
-<p>menu works!</p>
+<div class="main-container">
+    <div class="d-flex">
+        <app-menu-item *ngFor="let item of data" [menuItem]="item" (select)="onSelect($event)"></app-menu-item>
+    </div>
+</div>
