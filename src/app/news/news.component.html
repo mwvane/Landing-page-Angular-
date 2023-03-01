@@ -1,0 +1,21 @@
+<div class="main-container">
+  <img src="{{ data.imageUrl }}" alt="" class="w-100" />
+  <div class="baner">
+    <div class="row text-center">
+      <div class="col-3 mx-2">
+        <span style="font-size: 2.5rem; color: orange; font-weight: bold">{{
+          data.day
+        }}</span>
+        <span style="font-weight: bold; color: #c4c0c0">{{ data.year }}</span
+        ><br />
+        <span class="py-0" style="color: #25508c">{{ data.month }}</span>
+      </div>
+      <div class="col my-3">
+        <p>{{ data.caption }}</p>
+        <p class="px-2" style="color: #132a4b; font-size: 15px">
+          {{ data.text }}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

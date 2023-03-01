@@ -1,0 +1,18 @@
+.main-container{
+    position: relative;
+    cursor: pointer;
+}
+.baner{
+    position: absolute;
+    height: 115px;
+    width: 100%;
+    bottom: 0;
+    background-color: rgba(240,240,240, .9);
+    color: orange;
+    border-radius:  0 0 10px 10px;
+}
+.baner:hover{
+    background-color: rgba(240,240,240, 0);
+    color: #25508C;
+
+}
