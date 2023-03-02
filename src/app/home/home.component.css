@@ -69,7 +69,7 @@
   border-radius: 0 10px 10px 0;
   backdrop-filter: blur(10px);
 }
-.footer{
+.partniors{
   margin-top: 300px;
   display: flex;
   flex-direction: column;
@@ -93,4 +93,13 @@
   align-items: center;
   padding: 40px;
   padding-bottom: 20px;
+} 
+.info{
+  width: 80%;
+  margin-top: 50px;
+}
+.divider{
+  height: 3px;
+  background-color: orange;
+  width: 100%;
 }
