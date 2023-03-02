@@ -1,0 +1,9 @@
+.selected{
+    background-color: #25508C;
+    border-radius: 20px;
+    color: white;
+}
+.main-container{
+    background-color: white;
+    border-radius: 20px;
+}
