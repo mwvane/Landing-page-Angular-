@@ -10,6 +10,7 @@ import { MenuComponent } from './menu/menu.component';
 import { AvatarComponent } from './avatar/avatar.component';
 import { HomeComponent } from './home/home.component';
 import { NewsComponent } from './news/news.component';
+import { LanguageSelectorComponent } from './language-selector/language-selector.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { NewsComponent } from './news/news.component';
     MenuComponent,
     AvatarComponent,
     HomeComponent,
-    NewsComponent
+    NewsComponent,
+    LanguageSelectorComponent
   ],
   imports: [
     BrowserModule,
